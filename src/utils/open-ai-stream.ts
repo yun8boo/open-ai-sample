@@ -1,6 +1,5 @@
 import {
   createParser,
-  EventSourceParseCallback,
   ParsedEvent,
   ReconnectInterval,
 } from "eventsource-parser";

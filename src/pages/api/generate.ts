@@ -12,7 +12,6 @@ export default async function handler(req: Request) {
   const { prompt } = (await req.json()) as {
     prompt?: string;
   };
-  console.log(prompt);
   
   const payload: OpenAIStreamPayload = {
     model: "text-davinci-003",
